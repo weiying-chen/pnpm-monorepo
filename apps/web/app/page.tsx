@@ -3,6 +3,8 @@ import Feed from "@components/Feed";
 
 type HomeProps = {};
 
+import { Button } from "ui";
+
 const Home: React.FC<HomeProps> = () => {
   return (
     <section className="w-full flex-center flex-col">
@@ -13,6 +15,7 @@ const Home: React.FC<HomeProps> = () => {
       </h1>
       <p className="desc text-center">Promptia is an open source tool</p>
       <Feed />
+      <Button>TEST</Button>
     </section>
   );
 };
