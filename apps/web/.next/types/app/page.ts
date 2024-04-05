@@ -1,4 +1,4 @@
-// File: /home/weiying-chen/node/monorepo_setup/apps/web/app/page.tsx
+// File: /home/weiying-chen/node/pnpm-monorepo/apps/web/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
